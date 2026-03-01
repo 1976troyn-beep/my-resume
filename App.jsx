@@ -1,5 +1,6 @@
 import React from 'react';
 import { Code, Briefcase, Mail, Calendar, MapPin, Github, Send, Phone } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   const techStack = [
@@ -126,6 +127,7 @@ function App() {
           <p style={styles.footerEmail}>Связаться со мной: 1976troyn@gmail.com</p>
         </footer>
       </div>
+      <Analytics />
     </div>
   );
 }
@@ -163,8 +165,3 @@ const styles = {
 };
 
 export default App;
-
-
-
-
-
